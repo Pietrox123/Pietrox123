@@ -1,0 +1,33 @@
+<html> 
+<head> 
+<title> Zadanie 82</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Czesc !");}
+ </script>
+</head> 
+<body> 
+<p style="color:red;font-size:300%;" >Kacprzycki</p>
+<p style="color:green;font-size:200%;">
+dzis = new date() --> wprowadza funkcje data</br>
+dzis = dzis.gethours()--> zwraca aktualną godzinę (z przedziału 0 - 23)</br>
+dzis = dzis.getMinutes()--> zwraca minuty (z przedziału 0 - 59)</br>
+dzis = dzis.getMonth()+1--> zwraca aktualny miesiąc (0 - styczeń, 1 - luty itd.)</br>
+dzis = dzis.getdate()--> dzień miesiąca (wartość z przedziału 1 - 31)</br>
+dzis = dzis.getFullYear()--> pełna liczba reprezentująca rok
+
+</p>
+Ostatnio zmodyfikowany 
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form> 
+<script language="JavaScript">
+ dzis = new Date()
+ document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+ document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body> 
+</html>
